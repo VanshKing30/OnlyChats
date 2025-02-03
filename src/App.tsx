@@ -1,5 +1,5 @@
 import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
-import {Homepage} from "./pages/Homepage";
+import Homepage from "./pages/Homepage";
 import {Join} from './pages/Join';
 import {Chat} from './pages/Chat';
 

@@ -1,7 +1,13 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 
-export const Homepage = () => {
+
+const Homepage = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className='text-3xl font-sans underline'>Homepage</div>
-  )
-}
+    <Header></Header>    
+  );
+};
+
+export default Homepage;
