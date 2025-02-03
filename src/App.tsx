@@ -1,18 +1,17 @@
+import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
+import {Homepage} from "./pages/Homepage";
+import {Join} from './pages/Join';
+import {Chat} from './pages/Chat';
 
-
-import './App.css'
-
-function App() {  
-
- 
-
- 
-
+function App(){
   return(
-    <div>
-      <h1>Chat appplication using websockets , tech stack : React and typescript </h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage/>} />
+        <Route path="/join" element={<Join/>} />
+        <Route path="/chat" element={<Chat/>} />
+
+      </Routes>
+    </Router>
   )
 }
-
-export default App
