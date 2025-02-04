@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
-import { GoArrowRight } from "react-icons/go";
+
 import { MdOutlineArrowCircleRight } from "react-icons/md";
 import { useRef, useState } from "react";
 
